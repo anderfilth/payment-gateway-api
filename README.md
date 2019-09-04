@@ -76,11 +76,11 @@ e acesse pela url da aplicação. Exemplo:
 localhost:9000/docs/
 ```
 ### Testando
-Para executar os testes em ambientes UNIX, use:
+Para executar os testes em ambiente UNIX, use:
 ```
 yarn test
 ```
-Em ambientes Windows, use:
+Em ambiente Windows, use:
 ```
 yarn test:windows
 ```
