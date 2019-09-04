@@ -84,3 +84,11 @@ Em ambientes Windows, use:
 ```
 yarn test:windows
 ```
+### Usando os end-points que estão protegidos
+Para utilizar os end-points que são protegidos, devem serem realizados através de autenticação do usuário na aplicação, onde a mesma irá gerar um token de autorização de acesso.
+```
+Exemplo de autenticação
+```
+![](https://github.com/anderfilth/payment-gateway-api/blob/master/tmp/1.png)
+Em seguida, adicione o token no header das aplicações seguintes:
+![](https://github.com/anderfilth/payment-gateway-api/blob/master/tmp/2.png)
