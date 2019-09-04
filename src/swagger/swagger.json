@@ -44,7 +44,7 @@
       "x-swagger-router-controller": "userController",
       "post": {
         "tags": ["Users"],
-        "summary": "Store user.",
+        "summary": "Free Authentication",
         "description": "Store user.",
         "operationId": "store",
         "produces": ["application/json"],
@@ -132,8 +132,8 @@
       },
       "patch": {
         "tags": ["Users"],
-        "summary": "Store user.",
-        "description": "Store user.",
+        "summary": "Need authentication",
+        "description": "Update user.",
         "operationId": "update",
         "produces": ["application/json"],
         "security": [
@@ -218,7 +218,7 @@
       "x-swagger-router-controller": "sessionController",
       "post": {
         "tags": ["Sessions"],
-        "summary": "Session user.",
+        "summary": "Free Authentication",
         "description": "Session user.",
         "operationId": "store",
         "produces": ["application/json"],
@@ -317,7 +317,7 @@
       "x-swagger-router-controller": "transactionController",
       "post": {
         "tags": ["Transactions"],
-        "summary": "Transaction.",
+        "summary": "Need authentication",
         "description": "Transaction.",
         "operationId": "store",
         "produces": ["application/json"],
@@ -437,7 +437,7 @@
       },
       "get": {
         "tags": ["Transactions"],
-        "summary": "Transaction.",
+        "summary": "Need authentication",
         "description": "Transaction.",
         "operationId": "getTransactions",
         "produces": ["application/json"],
@@ -528,7 +528,7 @@
       "x-swagger-router-controller": "payableController",
       "get": {
         "tags": ["Balance"],
-        "summary": "Balance.",
+        "summary": "Need authentication",
         "description": "Balance.",
         "operationId": "getBalance",
         "produces": ["application/json"],
@@ -606,7 +606,7 @@
       "x-swagger-router-controller": "payableController",
       "get": {
         "tags": ["Payable"],
-        "summary": "Payable.",
+        "summary": "Need authentication",
         "description": "Payable.",
         "operationId": "getPayable",
         "produces": ["application/json"],
