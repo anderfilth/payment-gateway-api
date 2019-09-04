@@ -1,4 +1,4 @@
-# Gataway de pagamento feito em Node.js
+# Gataway de pagamentos feito em Node.js
 
 Esse projeto teve origem através do desafio da Pagar.me, onde o objetivo é criar um serviço de pagamento usando Node.js.
 
