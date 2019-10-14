@@ -1,8 +1,28 @@
 # Gataway de pagamentos feito em Node.js
 
-Esse projeto teve origem através do desafio da Pagar.me, onde o objetivo é criar um serviço de pagamento usando Node.js.
+Esse repositório tem como objetivo em ser um sistema de pagamento simplificado usando Node.js.
 
-## Como usar?
+## Descrição
+
+O sistema oferece os seguintes serviços:
+- Criar e editar a conta do usuário recebedor
+- Criar transações de ```Débito``` e ```Crédito a vista``` e processar os recebíveis para o recebedor
+- Visualizar os recebíveis do usuário
+
+## Tecnologias
+- Node.js v10+
+- Express
+- Swagger tools
+- Sequelize
+- Sucrase
+- Winston (Log)
+- JWT
+- PostgresSQL
+- Jest
+- SQLite
+-
+
+## Usando localmente
 Primeiro instale as dependências:
 ```
 yarn
@@ -92,3 +112,14 @@ Exemplo de autenticação
 ![](https://github.com/anderfilth/payment-gateway-api/blob/master/tmp/1.png)
 Em seguida, adicione o token no header das aplicações seguintes:
 ![](https://github.com/anderfilth/payment-gateway-api/blob/master/tmp/2.png)
+
+
+## License
+
+This project is under the MIT license. See the [LICENSE](https://github.com/anderfilth/payment-gateway-api/blob/master/LICENSE) for more information.
+
+---
+
+## Contribuidor
+
+- Anderson R. Santos [Contato](https://www.linkedin.com/in/anderson-ribeiro-dos-santos-a53a1a4b/)
