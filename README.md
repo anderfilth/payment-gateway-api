@@ -20,7 +20,6 @@ O sistema oferece os seguintes serviços:
 - PostgresSQL
 - Jest
 - SQLite
--
 
 ## Usando localmente
 Primeiro instale as dependências:
