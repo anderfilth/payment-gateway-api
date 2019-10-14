@@ -46,6 +46,10 @@ class TransactionBo {
       data: payableData,
       transaction,
     });
+
+    // commit transaction
+    await this.transactionRepository.commitDbTransaction({ transaction });
+
     // payable store will call db transaction commit
     return transactionTransformer.transactionOne(transactionStore);
   }

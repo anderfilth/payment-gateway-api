@@ -10,7 +10,6 @@ class PayableRepository {
     logger.debug(JSON.stringify(data));
     try {
       const payableStore = await Payable.create(data, { transaction });
-      await transaction.commit();
       return payableStore;
     } catch (err) {
       await transaction.rollback();

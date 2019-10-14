@@ -13,6 +13,11 @@ class TransactionRepository {
     return conn.transaction();
   }
 
+  async commitDbTransaction({ transaction }) {
+    logger.debug('TransactionRepository.commitDbTransaction');
+    await transaction.commit();
+  }
+
   async store({ data, transaction }) {
     logger.debug('TransactionRepository.store');
     try {
