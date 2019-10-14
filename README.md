@@ -6,7 +6,7 @@ Esse repositório tem como objetivo em ser um sistema de pagamento simplificado 
 
 O sistema oferece os seguintes serviços:
 - Criar e editar a conta do usuário recebedor
-- Criar transações de ```Débito``` e ```Crédito a vista``` e processar os recebíveis para o recebedor
+- Criar transações de ```Débito``` e ```Crédito à vista``` e processar os recebíveis para o recebedor
 - Visualizar os recebíveis do usuário
 
 ## Tecnologias
